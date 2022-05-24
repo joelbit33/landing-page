@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+
+/* General Styling Goes Here */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+
+/* The Header/Navigation Section */
+.top-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar {
+    display: flex;
+    gap: 30px;
+    font-weight: 100;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.welcome-section .left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.welcome-section .left h2 {
+    font-size: 48px;
+    margin: 0 0;
+    padding: 5px;
+}
+
+.welcome-section .left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.welcome-section .left .button {
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.welcome-section .right {
+    display: flex;
+
+}
+
+.welcome-section .right img {
+    height: 300px;
+    width: 300px;
+}
+
+
+/* The Info Box Section */
+.info-container {
+    display: flex;
+    padding: 0px;
+}
+
+.info-container h2 {
+    text-align: center;
+}
+.box-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.box-and-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    color: gray;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+
+}
+
+
+/* The Quote Section */
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Call To Action Section */
+
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.rectangle-box {
+    background-color: #3882F6;
+    max-width: 800px;
+    display: flex;
+    column-gap: 100px;
+    row-gap: 20px;
+    color: white;
+    padding: 20px 90px;
+    flex-wrap: wrap;
+    margin: 70px;
+}
+
+.rectangle-box .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-box .left p {
+    margin: 0;
+}
+
+.rectangle-box .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle-box .right .button {
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 95px;
+    font-weight: 100;
+}
+
