@@ -58,6 +58,7 @@ header .navbar {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
+    gap: 55px;
 }
 
 .welcome-section .left {
